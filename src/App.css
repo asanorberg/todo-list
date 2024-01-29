@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.inputContainer {
+  padding: 10px 10px 10px 10px;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+.main-container {
+  background-color: #0e141c;
+  padding: 32px 10px 32px 10px;
+  min-height: 844px;
+  width: 450px;
+}
+
+ul.todoList {
+  list-style: none;
+  overflow: scroll;
+}
+
+li {
+  padding: 12px;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.4;
+  font-weight: lighter;
+}
+
+.todo-row {
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    rgb(11, 46, 74),
+    rgb(54, 111, 161)
+  );
+  margin-bottom: 8px;
+  border-radius: 0.25rem;
+  width: 100%;
+  align-items: flex-start;
+  color: aliceblue;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.add-icon {
+  color: aliceblue;
+  font-size: 32px;
+}
+
+.add-icon:active {
+  opacity: 50%;
+  color: #306695;
+}
+
+.icon {
+  font-size: 28px;
+}
+
+.icon:active {
+  opacity: 50%;
+}
+
+input {
+  width: 100%;
+  border-radius: 0.25rem;
+  width: 100%;
+  background-color: #0e324e;
+}
+
+input:focus {
+  color: white;
+  outline: aliceblue 1px solid;
+}
